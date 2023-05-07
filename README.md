@@ -2,7 +2,10 @@ Ceci est mon premier language de script avec pour objectif la mise en oeuvre des
 
 Ce programme a pour objectif de permettre à l'utilisateur de localiser, à partir d'une adresse située sur Nantes, les parking les plus proches avec leur tarifs, et permettre à l'utilisateur de choisir le nombre de places minimum disponibles qu'ils souhaite.
 Il doit être utilisé à partir d'un terminal linux par la commande:
-./jemegare.sh <adresse> <entier=durée stationnement> <entier=places minimum du parking> <entier=taille de la liste de parking>
+./jemegare.sh <adresse> <entier=durée stationnement> <entier=places minimum du parking> <entier=taille de la liste de parking>.
+  
+  
+  Exemple: ./jemegare.sh "13 rue du yonep" "60" "20" "5"
 
 En fonction de ses instructions l'utilisateur verra affiché sur le terminal une liste de parking en commençant par le plus proche de sa position, avec le prix attendu en fonction du temps qu'il souhaite rester.
 
