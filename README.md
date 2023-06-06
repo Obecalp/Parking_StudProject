@@ -1,13 +1,11 @@
-Ceci est mon premier language de script avec pour objectif la mise en oeuvre des connaissances acquises en Python. Il a en réalité essentiellement servi à apprendre le Python et est le reflet de mes connaissances en bash/Python au premier semestre exclusivement. L'idée du projet et de sa structure (le rôle de chaque fichier) sont l'oeuvre de l'enseignant Frederic Goualard. Il n'a été cependant donné aucune instruction de programmation/algorithmique, ce domaine était libre.
+This is my first script language with the aim of implementing the knowledge acquired in Python. It has primarily served as a learning tool for Python and reflects my knowledge of bash/Python exclusively in the first semester of M1 bio-informatic/biostatistic. The project idea and its structure (the role of each file) are the work of the instructor Frederic Goualard. However, no programming/algorithmic instructions were given, and this field was open.
 
-Ce programme a pour objectif de permettre à l'utilisateur de localiser, à partir d'une adresse située sur Nantes, les parking les plus proches avec leur tarifs, et permettre à l'utilisateur de choisir le nombre de places minimum disponibles qu'ils souhaite.
-Il doit être utilisé à partir d'un terminal linux par la commande:
-./jemegare.sh <adresse> <entier=durée stationnement> <entier=places minimum du parking> <entier=taille de la liste de parking>.
-  
-  
-  Exemple: ./jemegare.sh "13 rue du yonep" "60" "20" "5"
+The purpose of this program is to allow the user to locate the nearest parking lots, along with their rates, based on an address in Nantes, and enable the user to choose the minimum number of available spaces they desire. It should be used from a Linux terminal using the command:
+./jemegare.sh <address> <integer=parking duration> <integer=minimum parking spaces> <integer=list size>.
 
-En fonction de ses instructions l'utilisateur verra affiché sur le terminal une liste de parking en commençant par le plus proche de sa position, avec le prix attendu en fonction du temps qu'il souhaite rester.
+Example: ./jemegare.sh "13 rue du yonep" "60" "20" "5"
 
-La liste des tarifs des parkings est mis à jour tout les 30 jour, la liste des places disponibles est mise à jour toutes les heures à partir du site https://data.nantesmetropole.fr/pages/home/
+Based on these instructions, the user will see a list of parking lots displayed on the terminal, starting with the one closest to their location, along with the expected price based on the desired duration of stay.
+
+The parking rates list is updated every 30 days, and the availability of parking spaces is updated every hour from the website. https://data.nantesmetropole.fr/pages/home/
 
